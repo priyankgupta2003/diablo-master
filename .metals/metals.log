@@ -4135,3 +4135,14 @@ INFO: Unsupported notification method: $/setTrace
 2023.11.27 20:47:55 INFO  time: indexed workspace in 5.12s[0m
 2023.11.27 20:47:56 INFO  compiling diablo-master (17 scala sources)[0m
 2023.11.27 20:48:11 INFO  time: compiled diablo-master in 14s[0m
+2023.11.27 20:48:11 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 20:48:11 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 20:48:11 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 20:48:11 INFO  compiling diablo-master (17 scala sources)[0m
+2023.11.27 20:48:22 INFO  time: compiled diablo-master in 10s[0m
+Nov 27, 2023 8:48:24 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.11.27 20:51:41 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 20:57:50 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 20:59:56 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:00:00 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m

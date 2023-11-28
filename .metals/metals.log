@@ -4130,3 +4130,8 @@ WARNING: Unmatched cancel notification for request id 13
 2023.11.27 20:47:44 INFO  Connected to Build server: Bloop v1.5.11[0m
 Nov 27, 2023 8:47:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2023.11.27 20:47:49 INFO  no build target found for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala. Using presentation compiler with project's scala-library version: 3.3.1[0m
+2023.11.27 20:47:49 INFO  time: Imported build in 0.31s[0m
+2023.11.27 20:47:55 INFO  time: indexed workspace in 5.12s[0m
+2023.11.27 20:47:56 INFO  compiling diablo-master (17 scala sources)[0m
+2023.11.27 20:48:11 INFO  time: compiled diablo-master in 14s[0m

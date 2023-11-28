@@ -1,0 +1,11 @@
+[0m[[0m[31merror[0m] [0m[0m/home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala:155:36: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : edu.uta.diablo.Expr[0m
+[0m[[0m[31merror[0m] [0m[0m required: edu.uta.diablo.Pattern[0m
+[0m[[0m[31merror[0m] [0m[0m            List(Generator(patvars(a),at), (Generator (patvars(b),bt)))[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala:155:64: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : edu.uta.diablo.Expr[0m
+[0m[[0m[31merror[0m] [0m[0m required: edu.uta.diablo.Pattern[0m
+[0m[[0m[31merror[0m] [0m[0m            List(Generator(patvars(a),at), (Generator (patvars(b),bt)))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

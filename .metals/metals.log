@@ -4146,3 +4146,317 @@ INFO: Unsupported notification method: $/setTrace
 2023.11.27 20:57:50 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
 2023.11.27 20:59:56 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
 2023.11.27 21:00:00 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:00:27 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:05:50 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:05:54 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:05:54 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:05:56 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:05:56 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:05:56 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:05:56 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:05:56 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:05:56 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:07:11 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+Nov 27, 2023 9:07:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 66
+2023.11.27 21:07:23 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:07:25 INFO  compiling diablo-master (17 scala sources)[0m
+2023.11.27 21:07:28 INFO  time: compiled diablo-master in 3.23s[0m
+2023.11.27 21:07:29 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:07:40 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:07:42 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:07:44 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:07:46 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:07:48 INFO  compiling diablo-master (17 scala sources)[0m
+2023.11.27 21:07:50 INFO  time: compiled diablo-master in 2.63s[0m
+2023.11.27 21:07:51 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+Nov 27, 2023 9:07:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 131
+2023.11.27 21:08:06 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:08:06 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:08:06 INFO  compiling diablo-master (17 scala sources)[0m
+2023.11.27 21:08:09 INFO  time: compiled diablo-master in 2.8s[0m
+2023.11.27 21:08:10 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:08:49 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:08:56 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:08:56 WARN  no build target for: /home/pxg9364/Diablo_2/diablo-master/tests/mult-add.scala[0m
+2023.11.27 21:22:22 INFO  compiling diablo-master (17 scala sources)[0m
+2023.11.27 21:22:23 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:22:25 INFO  time: compiled diablo-master in 3.42s[0m
+2023.11.27 21:22:25 INFO  compiling diablo-master (17 scala sources)[0m
+2023.11.27 21:22:26 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:22:27 INFO  time: compiled diablo-master in 2.23s[0m
+2023.11.27 21:22:28 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:22:34 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:22:35 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:22:39 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:22:40 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+Nov 27, 2023 9:22:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 223
+Nov 27, 2023 9:23:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 242
+2023.11.27 21:23:43 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:23:45 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:23:48 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:23:49 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:23:58 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:23:59 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:24:01 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:24:01 ERROR Failed to tokenize input for semantic tokens for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala
+scala.meta.tokenizers.TokenizeException: <input>:155: error: unclosed quoted identifier
+            List(Generator(VarPat(va),at) zip (Generator (VarPat(vb),bt))):::` 
+                                                                             ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getBackquotedIdent(LegacyScanner.scala:489)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:337)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+[0m
+2023.11.27 21:24:02 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:24:03 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:24:08 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:24:16 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:24:16 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+Exception in thread "pool-4-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023.11.27 21:24:16 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:24:16 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+Exception in thread "pool-4-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023.11.27 21:24:16 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:24:16 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+Exception in thread "pool-4-thread-3" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023.11.27 21:24:16 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:24:16 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+Exception in thread "pool-4-thread-4" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023.11.27 21:24:16 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:24:16 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+Exception in thread "pool-4-thread-5" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023.11.27 21:24:16 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:24:16 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:24:16 WARN  Using indexes to guess the definition of translate[0m
+2023.11.27 21:25:30 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:25:32 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:25:47 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:25:47 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:25:48 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:25:52 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:26:04 INFO  compiling diablo-master (17 scala sources)[0m
+2023.11.27 21:26:06 INFO  time: compiled diablo-master in 1.98s[0m
+2023.11.27 21:26:06 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:31:24 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:31:28 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:31:32 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:31:33 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:31:35 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:31:40 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:31:43 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:31:46 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:31:47 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:31:47 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:31:47 INFO  compiling diablo-master (17 scala sources)[0m
+2023.11.27 21:31:47 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:31:47 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala[0m
+2023.11.27 21:32:13 INFO  time: compiled diablo-master in 25s[0m
+2023.11.27 21:32:20 INFO  compiling diablo-master (17 scala sources)[0m
+2023.11.27 21:32:35 INFO  time: compiled diablo-master in 14s[0m
+2023.11.27 21:32:37 WARN  no build target for: /home/pxg9364/Diablo_2/diablo-master/tests/mult-add.scala[0m
+Exception in thread "pool-4-thread-6" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023.11.27 21:42:21 INFO  compiling diablo-master (1 scala source)[0m
+2023.11.27 21:42:24 INFO  time: compiled diablo-master in 2.48s[0m
+Exception in thread "pool-4-thread-7" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023.11.27 21:45:29 INFO  compiling diablo-master (17 scala sources)[0m
+Nov 27, 2023 9:45:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 607
+2023.11.27 21:45:42 INFO  time: compiled diablo-master in 12s[0m
+Exception in thread "pool-4-thread-8" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-4-thread-9" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-4-thread-10" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-4-thread-11" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023.11.27 21:45:50 INFO  compiling diablo-master (1 scala source)[0m
+2023.11.27 21:45:50 INFO  time: compiled diablo-master in 0.66s[0m
+Nov 27, 2023 9:57:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 657
+Nov 27, 2023 9:57:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 658
+Nov 27, 2023 9:57:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 659
+Nov 27, 2023 9:57:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 660
+2023.11.27 21:58:07 INFO  compiling diablo-master (1 scala source)[0m
+2023.11.27 21:58:07 INFO  time: compiled diablo-master in 0.39s[0m
+2023.11.27 22:07:19 INFO  compiling diablo-master (1 scala source)[0m
+2023.11.27 22:07:21 INFO  time: compiled diablo-master in 1.74s[0m
+2023.11.27 22:26:21 INFO  compiling diablo-master (1 scala source)[0m
+2023.11.27 22:26:23 INFO  time: compiled diablo-master in 2.43s[0m
+2023.11.28 14:39:08 WARN  no build target for: /home/pxg9364/Diablo_2/diablo-master/tests/add-mult.scala[0m
+2023.11.28 14:39:52 WARN  no build target for: /home/pxg9364/Diablo_2/diablo-master/tests/multiply.scala[0m
+2023.11.28 14:41:44 WARN  no build target for: /home/pxg9364/Diablo_2/diablo-master/tests/mult-add.scala[0m
+2023.11.28 14:43:29 WARN  no build target for: /home/pxg9364/Diablo_2/diablo-master/tests/mult-add.scala[0m
+2023.11.28 14:54:27 INFO  compiling diablo-master (17 scala sources)[0m
+2023.11.28 14:54:33 INFO  time: compiled diablo-master in 5.64s[0m
+2023.11.28 14:58:58 WARN  no build target for: /home/pxg9364/Diablo_2/diablo-master/tests/mult-add.scala[0m
+Nov 28, 2023 3:01:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1378
+Nov 28, 2023 3:01:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1396
+Nov 28, 2023 3:01:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1418
+Nov 28, 2023 3:01:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1424
+Nov 28, 2023 3:01:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1422
+Nov 28, 2023 3:01:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1423
+Nov 28, 2023 3:01:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1437
+Nov 28, 2023 3:01:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1438
+Nov 28, 2023 3:01:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1439
+Nov 28, 2023 3:02:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1453
+Nov 28, 2023 3:02:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1506
+Nov 28, 2023 3:02:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1540
+Nov 28, 2023 3:02:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1614
+Nov 28, 2023 3:03:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1678
+Nov 28, 2023 3:03:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1723
+2023.11.28 15:03:57 INFO  compiling diablo-master (17 scala sources)[0m
+2023.11.28 15:04:00 INFO  time: compiled diablo-master in 2.93s[0m
+2023.11.28 15:04:42 INFO  compiling diablo-master (17 scala sources)[0m
+2023.11.28 15:04:59 INFO  time: compiled diablo-master in 17s[0m
+Nov 28, 2023 3:08:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1792
+Nov 28, 2023 3:08:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1802
+Nov 28, 2023 3:08:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1815
+Nov 28, 2023 3:08:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1829
+Nov 28, 2023 3:09:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1874
+Nov 28, 2023 3:09:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1881
+Nov 28, 2023 3:09:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1984
+Nov 28, 2023 3:09:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1986
+Nov 28, 2023 3:09:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1989
+Nov 28, 2023 3:09:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2020
+Nov 28, 2023 3:09:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2022
+Nov 28, 2023 3:09:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2023
+2023.11.28 15:10:43 WARN  no build target for: /home/pxg9364/Diablo_2/diablo-master/tests/mult-add.scala[0m
+2023.11.28 15:11:25 INFO  compiling diablo-master (17 scala sources)[0m
+Nov 28, 2023 3:11:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2075
+2023.11.28 15:11:39 INFO  time: compiled diablo-master in 14s[0m
+2023.11.28 15:11:43 INFO  compiling diablo-master (1 scala source)[0m
+2023.11.28 15:11:43 INFO  time: compiled diablo-master in 0.38s[0m
+2023.11.28 15:12:12 INFO  compiling diablo-master (1 scala source)[0m
+2023.11.28 15:12:15 INFO  time: compiled diablo-master in 2.55s[0m
+2023.11.28 15:17:20 INFO  compiling diablo-master (17 scala sources)[0m
+2023.11.28 15:17:23 INFO  time: compiled diablo-master in 2.59s[0m
+2023.11.28 15:17:41 INFO  compiling diablo-master (17 scala sources)[0m
+2023.11.28 15:17:53 INFO  time: compiled diablo-master in 12s[0m
+2023.11.28 20:01:02 INFO  compiling diablo-master (17 scala sources)[0m
+2023.11.28 20:01:11 INFO  time: compiled diablo-master in 9.5s[0m
+2023.11.28 20:01:23 INFO  compiling diablo-master (1 scala source)[0m
+2023.11.28 20:01:25 INFO  time: compiled diablo-master in 1.54s[0m
+2023.11.28 20:13:37 INFO  compiling diablo-master (17 scala sources)[0m
+2023.11.28 20:13:48 INFO  time: compiled diablo-master in 10s[0m
+Nov 28, 2023 8:14:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2550
+2023.11.28 20:14:59 INFO  compiling diablo-master (17 scala sources)[0m
+2023.11.28 20:15:09 INFO  time: compiled diablo-master in 9.94s[0m

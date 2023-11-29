@@ -15,11 +15,11 @@ object mult_add {
         var M = (tensor*(100,100)[ ((i,j),i*100+j) | i <- 0..99, j <- 0..99]);
         var N = (tensor*(100,100)[ ((i,j),i*100+j) | i <- 0..99, j <- 0..99]);
         
-        var res = tensor*(100,100)[((i,j),a+b) | ((i,j),a) <- M, ((ii,jj),b) <- N, ii == i, jj == j];
+        M + N;
+        
             
       
 
-        res
         
                        
     """)

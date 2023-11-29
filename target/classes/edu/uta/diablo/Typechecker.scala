@@ -294,7 +294,7 @@ object Typechecker {
                   if (itp == SeqType(intType) || itp == SeqType(longType))
                     count_int_indexing = count_int_indexing + 1
                }
-               print("ccount : " + count_int_indexing)
+              //  print("ccount : " + count_int_indexing)
                if (count_int_indexing >= 1)
                   unfold_storage_type(typecheck(u,env)) match {
                     case ArrayType(d,t)
@@ -487,7 +487,9 @@ object Typechecker {
                                        case t => t
                                   }
                typecheck_call(f,tas)
-                 .getOrElse(throw new Error("Wrong function call: "+e+" for type "+tas))
+                 .getOrElse(throw new Error("Wrong function call: "+e+" for type "+tas))                  
+                 case MethodCall(x,"+",List(y))
+                 => typecheck(x,env)
           case MethodCall(_,"register",_)
             => intType
           case MethodCall(u,"reduceByKey",_)

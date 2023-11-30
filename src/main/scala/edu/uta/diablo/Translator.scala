@@ -122,7 +122,7 @@ object Translator {
                                           MatchE(Var(v),
                                                  cs.map{ case Case(p,c,b)
                                                            => Case(p,c,translate(b,env,vars,fncs)) }))))
-        case MethodCall(a, "+", List(b)) => 
+        case MethodCall(a, "++", List(b)) => 
           // Translate matrices a and b
           val at = translate(a, env, vars, fncs)
           val bt = translate(b, env, vars, fncs)

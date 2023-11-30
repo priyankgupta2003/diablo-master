@@ -73,7 +73,7 @@ object Parser extends StandardTokenParsers {
 
   override val lexical = new MyLexical
 
-  lexical.delimiters ++= List( "(" , ")" , "[", "]", "{", "}", "," , ":", ";", ".", "=>", "=", "->", "<-",
+  lexical.delimiters ++= List( "(" , ")", "++" , "[", "]", "{", "}", "," , ":", ";", ".", "=>", "=", "->", "<-",
                                "||", "&&", "!", "==", "<=", ">=", "<", ">", "!=", "+", "-","@" ,"*", "/", "%",
                                ":=", "#", "^", "|", "&", "..", "::" )
 
@@ -82,7 +82,7 @@ object Parser extends StandardTokenParsers {
 
   /* groups of infix operator precedence, from low to high */
   val operator_precedence: List[Parser[String]]
-      = List( "..", "||", "^", "&&"|"&", "<="|">="|"<"|">", "=="|"!=", "+"|"-", "*"|"/"|"%", "=" )
+      = List( "..", "||", "^", "&&"|"&", "<="|">="|"<"|">", "=="|"!=", "++", "+"|"-", "*"|"/"|"%", "=" )
 
   /* all infix operators not listed in operator_precedence have the same highest precedence */  
   val infixOpr: Parser[String]

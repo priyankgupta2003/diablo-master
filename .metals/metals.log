@@ -4460,3 +4460,32 @@ Nov 28, 2023 8:14:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellat
 WARNING: Unmatched cancel notification for request id 2550
 2023.11.28 20:14:59 INFO  compiling diablo-master (17 scala sources)[0m
 2023.11.28 20:15:09 INFO  time: compiled diablo-master in 9.94s[0m
+Nov 28, 2023 9:32:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2663
+2023.11.28 21:57:02 INFO  compiling diablo-master (17 scala sources)[0m
+2023.11.28 21:57:18 INFO  time: compiled diablo-master in 15s[0m
+Nov 29, 2023 9:50:49 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Nov 29, 2023 9:54:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2726
+Nov 29, 2023 9:55:14 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.11.29 20:21:09 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/pxg9364/.bloop/bloop.json[0m
+2023.11.29 20:21:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pxg9364/Diablo_2/diablo-master/.metals/bsp.trace.json or /home/pxg9364/.cache/metals/bsp.trace.json[0m
+2023.11.29 20:21:09 INFO  Connected to Build server: Bloop v1.5.11[0m
+2023.11.29 20:21:09 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/pxg9364/.bloop/bloop.json[0m
+2023.11.29 20:21:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pxg9364/Diablo_2/diablo-master/project/.metals/bsp.trace.json or /home/pxg9364/.cache/metals/bsp.trace.json[0m
+2023.11.29 20:22:58 INFO  compiling diablo-master (17 scala sources)[0m
+2023.11.29 20:23:22 INFO  time: compiled diablo-master in 23s[0m
+2023.11.29 20:23:53 INFO  compiling diablo-master (17 scala sources)[0m
+Nov 29, 2023 8:23:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2822
+2023.11.29 20:24:10 INFO  time: compiled diablo-master in 17s[0m
+2023.11.29 20:25:25 INFO  compiling diablo-master (17 scala sources)[0m
+2023.11.29 20:25:27 INFO  Deduplicating compilation of diablo-master from bsp client 'Metals 1.1.0' (since 4m 17.5s)[0m
+2023.11.29 20:25:27 INFO  compiling diablo-master (17 scala sources)[0m
+2023.11.29 20:25:38 INFO  time: compiled diablo-master in 11s[0m
+Nov 29, 2023 8:28:04 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2023.11.29 20:28:53 INFO  compiling diablo-master (17 scala sources)[0m
+2023.11.29 20:29:04 INFO  time: compiled diablo-master in 11s[0m

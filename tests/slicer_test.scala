@@ -14,11 +14,12 @@ object Slicer_Test {
     val x = q("""
         var M = tensor*(100,100)[ ((i,j),i*100+j) | i <- 0..99, j <- 0..99];
        
-        //var V = M[10:20:3,10:20:3];
+        var V = M[10:20:3,10:20:3];
         var W = M[10,10];
-        Var V = M[20,20];
+        
 
-        var a = W+V
+       
+        
         
                        
     """)

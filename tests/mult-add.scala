@@ -12,20 +12,16 @@ object mult_add {
     parami(block_dim_size,10)
 
     val x = q("""
-        var M = (tensor*(100,100)[ ((i,j),i*100+j) | i <- 0..99, j <- 0..99]);
-        var N = (tensor*(100,100)[ ((i,j),i*100+j) | i <- 0..99, j <- 0..99]);
+        var M = (tensor*(10,10)[ ((i,j),i*100+j) | i <- 0..10, j <- 0..10]);
+        var N = (tensor*(10,10)[ ((i,j),i*100) | i <- 0..10, j <- 0..10]);
         
-        M + N;
+        var res = (tensor*(10,10)[((i,j),+/c) | ((i,k),a) <- M, ((kk,j),b) <- N, k == kk, let c = a*b, group by (i,j)]);
         
-            
-      
-
-        
-                       
     """)
 
     println("sum:" + x)
 
+    
 
      
 

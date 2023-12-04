@@ -122,6 +122,7 @@ object Translator {
                                           MatchE(Var(v),
                                                  cs.map{ case Case(p,c,b)
                                                            => Case(p,c,translate(b,env,vars,fncs)) }))))
+        // Matrix Addition
         case MethodCall(a, "++", List(b)) => 
           // Translate matrices a and b
           val at = translate(a, env, vars, fncs)
@@ -136,7 +137,7 @@ object Translator {
           val jj = newvar
 
           // Comprehension for element-wise matrix addition
-          val z= Seq(List(Comprehension(
+          Seq(List(Comprehension(
             Tuple(List(
               Tuple(List(Var(i), Var(j))), 
               MethodCall(Var(va), "+", List(Var(vb)))
@@ -151,8 +152,38 @@ object Translator {
             )
           )))
 
-          println("printing from trasnlator-----" +z)
-          z
+        // Matrix Subtraction
+
+          case MethodCall(a, "--", List(b)) => 
+          // Translate matrices a and b
+          val at = translate(a, env, vars, fncs)
+          val bt = translate(b, env, vars, fncs)
+
+          // Initialize new variables for iteration
+          val va = newvar
+          val vb = newvar
+          val i = newvar
+          val j = newvar
+          val ii = newvar
+          val jj = newvar
+
+          // Comprehension for element-wise matrix addition
+          Seq(List(Comprehension(
+            Tuple(List(
+              Tuple(List(Var(i), Var(j))), 
+              MethodCall(Var(va), "-", List(Var(vb)))
+            )),
+            List(
+              Generator(VarPat(va), at), 
+              Generator(VarPat(vb), bt),
+              Generator(TuplePat(List(TuplePat(List(VarPat(i), VarPat(j))), VarPat(va))), a),
+              Generator(TuplePat(List(TuplePat(List(VarPat(ii), VarPat(jj))), VarPat(vb))), b), 
+              Predicate(MethodCall(Var(ii), "==", List(Var(i)))), 
+              Predicate(MethodCall(Var(jj), "==", List(Var(j))))
+            )
+          )))
+
+          
 
         case MethodCall(o,":",List(x))
           => Merge(translate(o,env,vars,fncs),

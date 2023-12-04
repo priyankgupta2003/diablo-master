@@ -490,6 +490,8 @@ object Typechecker {
                  .getOrElse(throw new Error("Wrong function call: "+e+" for type "+tas))                  
                  case MethodCall(x,"++",List(y))
                  => typecheck(x,env)
+                 case MethodCall(x,"--",List(y))
+                 => typecheck(x,env)
           case MethodCall(_,"register",_)
             => intType
           case MethodCall(u,"reduceByKey",_)

@@ -1,22 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0m/home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala:194:41: not enough arguments for method apply: (first: edu.uta.diablo.Expr, last: edu.uta.diablo.Expr, step: edu.uta.diablo.Expr)edu.uta.diablo.Range in object Range.[0m
-[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter step.[0m
-[0m[[0m[31merror[0m] [0m[0m              Generator(VarPat(i), Range(0, at.numRows)),[0m
-[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala:195:41: not enough arguments for method apply: (first: edu.uta.diablo.Expr, last: edu.uta.diablo.Expr, step: edu.uta.diablo.Expr)edu.uta.diablo.Range in object Range.[0m
-[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter step.[0m
-[0m[[0m[31merror[0m] [0m[0m              Generator(VarPat(j), Range(0, bt.numCols)),[0m
-[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala:199:42: too many arguments (4) for method apply: (op: String, input: edu.uta.diablo.Expr)edu.uta.diablo.reduce in object reduce[0m
-[0m[[0m[31merror[0m] [0m[0m                    reduce("+", Var(va), "*", Var(vb))[0m
-[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala:202:46: value row is not a member of edu.uta.diablo.Expr[0m
-[0m[[0m[31merror[0m] [0m[0m                    Generator(VarPat(va), at.row(i)),[0m
-[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala:203:46: value col is not a member of edu.uta.diablo.Expr[0m
-[0m[[0m[31merror[0m] [0m[0m                    Generator(VarPat(vb), bt.col(j)),[0m
-[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala:204:47: not enough arguments for method apply: (first: edu.uta.diablo.Expr, last: edu.uta.diablo.Expr, step: edu.uta.diablo.Expr)edu.uta.diablo.Range in object Range.[0m
-[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter step.[0m
-[0m[[0m[31merror[0m] [0m[0m                    Generator(VarPat(k), Range(0, at.numCols)),[0m
-[0m[[0m[31merror[0m] [0m[0m                                              ^[0m
-[0m[[0m[31merror[0m] [0m[0m6 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala:40:7: overloaded method value setPos with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (src: edu.uta.diablo.Stmt,dst: edu.uta.diablo.Expr)edu.uta.diablo.Expr <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (src: edu.uta.diablo.Expr,dst: edu.uta.diablo.Expr)edu.uta.diablo.Expr[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (edu.uta.diablo.Expr, Any)[0m
+[0m[[0m[31merror[0m] [0m[0m    = setPos(e,e match {[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

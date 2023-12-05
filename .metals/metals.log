@@ -4769,3 +4769,129 @@ SEVERE: A severe compiler error occurred, full details of the error can be found
 2023.12.03 20:05:18 INFO  time: compiled diablo-master in 2.52s[0m
 Dec 03, 2023 8:05:22 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+Dec 03, 2023 8:08:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1226
+Dec 03, 2023 8:08:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1268
+Dec 03, 2023 8:08:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1269
+Dec 03, 2023 8:08:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1330
+Dec 03, 2023 8:08:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1343
+2023.12.03 20:08:57 INFO  compiling diablo-master (1 scala source)[0m
+2023.12.03 20:08:59 INFO  time: compiled diablo-master in 2.15s[0m
+2023.12.03 20:09:50 INFO  time: code lens generation in 4.44s[0m
+Dec 03, 2023 8:12:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1440
+2023.12.03 20:16:30 INFO  compiling diablo-master (1 scala source)[0m
+2023.12.03 20:16:30 INFO  time: compiled diablo-master in 0.64s[0m
+Dec 03, 2023 8:16:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1508
+2023.12.03 20:17:03 INFO  compiling diablo-master (1 scala source)[0m
+2023.12.03 20:17:03 INFO  time: compiled diablo-master in 0.48s[0m
+Dec 04, 2023 7:36:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1542
+2023.12.04 19:36:31 INFO  compiling diablo-master (1 scala source)[0m
+2023.12.04 19:36:31 INFO  time: compiled diablo-master in 0.63s[0m
+2023.12.04 19:36:40 ERROR Failed to tokenize input for semantic tokens for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala
+scala.meta.tokenizers.TokenizeException: <input>:205: error: unclosed string literal
+              reduce("+, Var(c))
+                     ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+[0m
+2023.12.04 19:36:41 ERROR Failed to tokenize input for semantic tokens for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala
+scala.meta.tokenizers.TokenizeException: <input>:205: error: unclosed string literal
+              reduce("+"", Var(c))
+                        ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+[0m
+2023.12.04 19:36:43 INFO  compiling diablo-master (1 scala source)[0m
+2023.12.04 19:36:46 INFO  time: compiled diablo-master in 2.46s[0m
+2023.12.04 19:37:59 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/pxg9364/.bloop/bloop.json[0m
+2023.12.04 19:37:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pxg9364/Diablo_2/diablo-master/project/.metals/bsp.trace.json or /home/pxg9364/.cache/metals/bsp.trace.json[0m
+2023.12.04 19:38:44 INFO  compiling diablo-master (17 scala sources)[0m
+2023.12.04 19:38:55 WARN  Could not load snapshot text for /home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Parser.scala[0m
+2023.12.04 19:38:56 INFO  time: compiled diablo-master in 11s[0m
+2023.12.04 19:39:09 INFO  compiling diablo-master (1 scala source)[0m
+2023.12.04 19:39:11 INFO  time: compiled diablo-master in 2.31s[0m
+2023.12.04 19:41:52 INFO  compiling diablo-master (17 scala sources)[0m
+2023.12.04 19:42:06 INFO  time: compiled diablo-master in 13s[0m
+2023.12.04 19:43:33 INFO  compiling diablo-master (17 scala sources)[0m
+2023.12.04 19:43:49 INFO  time: compiled diablo-master in 15s[0m
+2023.12.04 19:45:05 INFO  compiling diablo-master (17 scala sources)[0m
+2023.12.04 19:45:20 INFO  time: compiled diablo-master in 14s[0m
+2023.12.04 19:45:20 INFO  compiling diablo-master (1 scala source)[0m
+2023.12.04 19:45:21 INFO  time: compiled diablo-master in 1.34s[0m
+2023.12.04 19:45:26 INFO  compiling diablo-master (1 scala source)[0m
+2023.12.04 19:45:29 INFO  time: compiled diablo-master in 2.65s[0m
+2023.12.04 19:45:35 WARN  no build target for: /home/pxg9364/Diablo_2/diablo-master/tests/mult-add.scala[0m
+2023.12.04 19:48:31 WARN  no build target for: /home/pxg9364/Diablo_2/diablo-master/tests/mult-add.scala[0m
+2023.12.04 19:48:39 INFO  compiling diablo-master (17 scala sources)[0m
+Dec 04, 2023 7:48:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1978
+2023.12.04 19:49:00 INFO  time: compiled diablo-master in 21s[0m
+Dec 04, 2023 7:49:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2008
+2023.12.04 19:49:13 INFO  compiling diablo-master (1 scala source)[0m
+2023.12.04 19:49:16 INFO  time: compiled diablo-master in 3.06s[0m
+2023.12.04 19:58:32 INFO  compiling diablo-master (17 scala sources)[0m
+2023.12.04 19:58:46 INFO  time: compiled diablo-master in 14s[0m
+2023.12.04 19:58:51 INFO  compiling diablo-master (1 scala source)[0m
+2023.12.04 19:58:54 INFO  time: compiled diablo-master in 2.81s[0m
+2023.12.04 20:01:43 INFO  compiling diablo-master (17 scala sources)[0m
+2023.12.04 20:02:01 INFO  time: compiled diablo-master in 17s[0m
+2023.12.04 20:06:45 INFO  compiling diablo-master (1 scala source)[0m
+2023.12.04 20:06:45 INFO  time: compiled diablo-master in 0.65s[0m
+2023.12.04 20:10:24 INFO  compiling diablo-master (1 scala source)[0m
+2023.12.04 20:10:28 INFO  time: compiled diablo-master in 3.6s[0m
+2023.12.04 20:15:04 INFO  compiling diablo-master (17 scala sources)[0m
+2023.12.04 20:15:20 INFO  time: compiled diablo-master in 16s[0m

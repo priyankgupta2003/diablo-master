@@ -492,6 +492,8 @@ object Typechecker {
                  => typecheck(x,env)
                  case MethodCall(x,"--",List(y))
                  => typecheck(x,env)
+                 case MethodCall(x,"@@",List(y))
+                 => typecheck(x,env)
           case MethodCall(_,"register",_)
             => intType
           case MethodCall(u,"reduceByKey",_)

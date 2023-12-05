@@ -183,6 +183,72 @@ object Translator {
             )
           )))
 
+          // //Matrix Multiplication
+          // case MethodCall(a, "@@", List(b)) =>
+          // // Translate matrices M and N
+          // val Mt = translate(a, env, vars, fncs)
+          // val Nt = translate(b, env, vars, fncs)
+
+          // // Initialize new variables for iteration
+          // val va = newvar
+          // val vb = newvar
+          // val i = newvar
+          // val j = newvar
+          // val k = newvar
+          // val kk = newvar
+          // val c = newvar
+
+          // // Comprehension for element-wise matrix multiplication
+          // Seq(List(Comprehension(
+          //   Tuple(List(
+          //     Tuple(List(Var(i), Var(j))), 
+          //     reduce("+", Var(c))
+          //   )),
+          //   List(
+          //     Generator(TuplePat(List(TuplePat(List(VarPat(i), VarPat(k))), VarPat(va))), Mt), 
+          //     Generator(TuplePat(List(TuplePat(List(VarPat(kk), VarPat(j))), VarPat(vb))), Nt),
+          //     Predicate(MethodCall(Var(k), "==", List(Var(kk)))),
+          //     LetBinding(VarPat(c), MethodCall(Var(va), "*", List(Var(vb)))),
+          //     GroupByQual(TuplePat(List(VarPat(i), VarPat(j))), Tuple(List(Var(i), Var(j))))
+          //   )
+          // )))
+
+          //Matrix Multiplication
+            case MethodCall(a, "@@", List(b)) =>
+              // Translate matrices M and N
+              val at = translate(a, env, vars, fncs)
+              val bt = translate(b, env, vars, fncs)
+
+              // Initialize new variables for iteration
+              val va = newvar
+              val vb = newvar
+              val i = newvar
+              val j = newvar
+              val k = newvar
+              val kk = newvar
+              val c = newvar
+
+              // Comprehension for matrix multiplication
+              val z = Seq(List(Comprehension(
+                Tuple(List(
+                  Tuple(List(Var(i), Var(j))), 
+                  reduce("+", Var(c))
+                )),
+                List(
+                  Generator(VarPat(va), at),
+                  Generator(VarPat(vb), bt),
+                  Predicate(MethodCall(Var(k), "==", List(Var(kk)))),
+                  LetBinding(VarPat(c), MethodCall(Var(va), "*", List(Var(vb)))),
+                  GroupByQual(TuplePat(List(VarPat(i), VarPat(j))), Tuple(List(Var(i), Var(j))))
+                )
+              )))
+
+              print("---Printing from Translator---" + z)
+              z
+
+        
+
+
           
 
         case MethodCall(o,":",List(x))

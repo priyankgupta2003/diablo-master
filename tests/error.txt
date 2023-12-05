@@ -2,7 +2,7 @@ Imperative program:
 BlockS(List(VarDeclS(M,
                      None(),
                      Some(Call(rdd_block_tensor_2_0,
-                               List(Tuple(List(IntConst(100), IntConst(100))),
+                               List(Tuple(List(IntConst(10), IntConst(10))),
                                     Tuple(List()),
                                     Comprehension(Tuple(List(Tuple(List(Var(i),
                                                                         Var(j))),
@@ -13,33 +13,31 @@ BlockS(List(VarDeclS(M,
                                                                         List(Var(j))))),
                                                   List(Generator(VarPat(i),
                                                                  Range(IntConst(0),
-                                                                       IntConst(99),
+                                                                       IntConst(10),
                                                                        IntConst(1))),
                                                        Generator(VarPat(j),
                                                                  Range(IntConst(0),
-                                                                       IntConst(99),
+                                                                       IntConst(10),
                                                                        IntConst(1))))))))),
             VarDeclS(N,
                      None(),
                      Some(Call(rdd_block_tensor_2_0,
-                               List(Tuple(List(IntConst(100), IntConst(100))),
+                               List(Tuple(List(IntConst(10), IntConst(10))),
                                     Tuple(List()),
                                     Comprehension(Tuple(List(Tuple(List(Var(i),
                                                                         Var(j))),
-                                                             MethodCall(MethodCall(Var(i),
-                                                                                   *,
-                                                                                   List(IntConst(100))),
-                                                                        +,
-                                                                        List(Var(j))))),
+                                                             MethodCall(Var(i),
+                                                                        *,
+                                                                        List(IntConst(100))))),
                                                   List(Generator(VarPat(i),
                                                                  Range(IntConst(0),
-                                                                       IntConst(99),
+                                                                       IntConst(10),
                                                                        IntConst(1))),
                                                        Generator(VarPat(j),
                                                                  Range(IntConst(0),
-                                                                       IntConst(99),
+                                                                       IntConst(10),
                                                                        IntConst(1))))))))),
-            ExprS(MethodCall(Var(M), +, List(Var(N))))))
+            ExprS(MethodCall(Var(M), @@, List(Var(N))))))
 Loading rdd_block_tensor_2_0:
        typemap rdd_block_tensor_2_0[T] ( d: (Int,Int), s: () ): array2[T] {
           def view ( x: rdd[((Int,Int),tensor_2_0[T])] )
@@ -68,120 +66,76 @@ Loading tensor_2_0:
                 buffer }
        }
       
-printing from trasnlator-----Seq(List(Comprehension(Tuple(List(Tuple(List(Var(_v40), Var(_v41))), MethodCall(Var(_v38),+,List(Var(_v39))))),List(Generator(VarPat(_v38),Comprehension(MethodCall(Var(_v37),*,List(Var(_v36))),List(Generator(VarPat(_v37),Seq(List(Var(i)))), Generator(VarPat(_v36),Seq(List(IntConst(100))))))), Generator(VarPat(_v39),Seq(List(Var(j)))), Generator(TuplePat(List(TuplePat(List(VarPat(_v40), VarPat(_v41))), VarPat(_v38))),MethodCall(Var(i),*,List(IntConst(100)))), Generator(TuplePat(List(TuplePat(List(VarPat(_v42), VarPat(_v43))), VarPat(_v39))),Var(j)), Predicate(MethodCall(Var(_v42),==,List(Var(_v40)))), Predicate(MethodCall(Var(_v43),==,List(Var(_v41))))))))
-printing from trasnlator-----Seq(List(Comprehension(Tuple(List(Tuple(List(Var(_v66), Var(_v67))), MethodCall(Var(_v64),+,List(Var(_v65))))),List(Generator(VarPat(_v64),Comprehension(MethodCall(Var(_v63),*,List(Var(_v62))),List(Generator(VarPat(_v63),Seq(List(Var(i)))), Generator(VarPat(_v62),Seq(List(IntConst(100))))))), Generator(VarPat(_v65),Seq(List(Var(j)))), Generator(TuplePat(List(TuplePat(List(VarPat(_v66), VarPat(_v67))), VarPat(_v64))),MethodCall(Var(i),*,List(IntConst(100)))), Generator(TuplePat(List(TuplePat(List(VarPat(_v68), VarPat(_v69))), VarPat(_v65))),Var(j)), Predicate(MethodCall(Var(_v68),==,List(Var(_v66)))), Predicate(MethodCall(Var(_v69),==,List(Var(_v67))))))))
-printing from trasnlator-----Seq(List(Comprehension(Tuple(List(Tuple(List(Var(_v73), Var(_v74))), MethodCall(Var(_v71),+,List(Var(_v72))))),List(Generator(VarPat(_v71),Seq(List(Var(M)))), Generator(VarPat(_v72),Seq(List(Var(N)))), Generator(TuplePat(List(TuplePat(List(VarPat(_v73), VarPat(_v74))), VarPat(_v71))),Var(M)), Generator(TuplePat(List(TuplePat(List(VarPat(_v75), VarPat(_v76))), VarPat(_v72))),Var(N)), Predicate(MethodCall(Var(_v75),==,List(Var(_v73)))), Predicate(MethodCall(Var(_v76),==,List(Var(_v74))))))))
-Normalized comprehension:
+---Printing from Translator---Seq(List(Comprehension(Tuple(List(Tuple(List(Var(_v63), Var(_v64))), reduce(+,Var(_v67)))),List(Generator(VarPat(_v61),Seq(List(Var(M)))), Generator(VarPat(_v62),Seq(List(Var(N)))), Predicate(MethodCall(Var(_v65),==,List(Var(_v66)))), LetBinding(VarPat(_v67),MethodCall(Var(_v61),*,List(Var(_v62)))), GroupByQual(TuplePat(List(VarPat(_v63), VarPat(_v64))),Tuple(List(Var(_v63), Var(_v64))))))))Normalized comprehension:
 Block(List(VarDecl(M,
                    ArrayType(2, BasicType(Int)),
                    Seq(List(Call(rdd_block_tensor_2_0,
-                                 List(Tuple(List(IntConst(100), IntConst(100))),
+                                 List(Tuple(List(IntConst(10), IntConst(10))),
                                       Tuple(List()),
                                       Comprehension(Tuple(List(Tuple(List(Var(i),
                                                                           Var(j))),
-                                                               Comprehension(Tuple(List(Tuple(List(Var(_v40),
-                                                                                                   Var(_v41))),
-                                                                                        MethodCall(Var(_v38),
-                                                                                                   +,
-                                                                                                   List(Var(_v39))))),
-                                                                             List(Generator(TuplePat(List(TuplePat(List(VarPat(_v40),
-                                                                                                                        VarPat(_v41))),
-                                                                                                          VarPat(_v38))),
-                                                                                            MethodCall(Var(i),
-                                                                                                       *,
-                                                                                                       List(IntConst(100)))),
-                                                                                  Generator(TuplePat(List(TuplePat(List(VarPat(_v42),
-                                                                                                                        VarPat(_v43))),
-                                                                                                          VarPat(_v39))),
-                                                                                            Var(j)),
-                                                                                  Predicate(MethodCall(Var(_v42),
-                                                                                                       ==,
-                                                                                                       List(Var(_v40)))),
-                                                                                  Predicate(MethodCall(Var(_v43),
-                                                                                                       ==,
-                                                                                                       List(Var(_v41)))))))),
+                                                               MethodCall(MethodCall(Var(i),
+                                                                                     *,
+                                                                                     List(IntConst(100))),
+                                                                          +,
+                                                                          List(Var(j))))),
                                                     List(Generator(VarPat(i),
                                                                    Range(IntConst(0),
-                                                                         IntConst(99),
+                                                                         IntConst(10),
                                                                          IntConst(1))),
                                                          Generator(VarPat(j),
                                                                    Range(IntConst(0),
-                                                                         IntConst(99),
+                                                                         IntConst(10),
                                                                          IntConst(1)))))))))),
            VarDecl(N,
                    ArrayType(2, BasicType(Int)),
                    Seq(List(Call(rdd_block_tensor_2_0,
-                                 List(Tuple(List(IntConst(100), IntConst(100))),
+                                 List(Tuple(List(IntConst(10), IntConst(10))),
                                       Tuple(List()),
                                       Comprehension(Tuple(List(Tuple(List(Var(i),
                                                                           Var(j))),
-                                                               Comprehension(Tuple(List(Tuple(List(Var(_v66),
-                                                                                                   Var(_v67))),
-                                                                                        MethodCall(Var(_v64),
-                                                                                                   +,
-                                                                                                   List(Var(_v65))))),
-                                                                             List(Generator(TuplePat(List(TuplePat(List(VarPat(_v66),
-                                                                                                                        VarPat(_v67))),
-                                                                                                          VarPat(_v64))),
-                                                                                            MethodCall(Var(i),
-                                                                                                       *,
-                                                                                                       List(IntConst(100)))),
-                                                                                  Generator(TuplePat(List(TuplePat(List(VarPat(_v68),
-                                                                                                                        VarPat(_v69))),
-                                                                                                          VarPat(_v65))),
-                                                                                            Var(j)),
-                                                                                  Predicate(MethodCall(Var(_v68),
-                                                                                                       ==,
-                                                                                                       List(Var(_v66)))),
-                                                                                  Predicate(MethodCall(Var(_v69),
-                                                                                                       ==,
-                                                                                                       List(Var(_v67)))))))),
+                                                               MethodCall(Var(i),
+                                                                          *,
+                                                                          List(IntConst(100))))),
                                                     List(Generator(VarPat(i),
                                                                    Range(IntConst(0),
-                                                                         IntConst(99),
+                                                                         IntConst(10),
                                                                          IntConst(1))),
                                                          Generator(VarPat(j),
                                                                    Range(IntConst(0),
-                                                                         IntConst(99),
+                                                                         IntConst(10),
                                                                          IntConst(1)))))))))),
-           Seq(List(Comprehension(Tuple(List(Tuple(List(Var(_v73),
-                                                        Var(_v74))),
-                                             MethodCall(Var(_v71),
-                                                        +,
-                                                        List(Var(_v72))))),
-                                  List(Generator(TuplePat(List(TuplePat(List(VarPat(_v73),
-                                                                             VarPat(_v74))),
-                                                               VarPat(_v71))),
-                                                 Var(M)),
-                                       Generator(TuplePat(List(TuplePat(List(VarPat(_v75),
-                                                                             VarPat(_v76))),
-                                                               VarPat(_v72))),
-                                                 Var(N)),
-                                       Predicate(MethodCall(Var(_v75),
-                                                            ==,
-                                                            List(Var(_v73)))),
-                                       Predicate(MethodCall(Var(_v76),
-                                                            ==,
-                                                            List(Var(_v74))))))))))
+           Seq(List(IfE(MethodCall(Var(_v65), ==, List(Var(_v66))),
+                        Comprehension(Tuple(List(Tuple(List(Var(_v63),
+                                                            Var(_v64))),
+                                                 reduce(+, Var(_v67)))),
+                                      List(LetBinding(VarPat(_v67),
+                                                      MethodCall(Var(M),
+                                                                 *,
+                                                                 List(Var(N)))),
+                                           GroupByQual(TuplePat(List(VarPat(_v63),
+                                                                     VarPat(_v64))),
+                                                       Tuple(List(Var(_v63),
+                                                                  Var(_v64)))))),
+                        Seq(List()))))))
 mult-add.scala:14: error: exception during macro expansion:
-java.lang.Error: Type BasicType(Int) is not a collection (found BasicType(Int))
-	at edu.uta.diablo.Typechecker$.elemType(Typechecker.scala:169)
-	at edu.uta.diablo.Lifting$.$anonfun$lift_expr$7(Lifting.scala:237)
+java.lang.Error: Wrong method call: MethodCall(Var(M),*,List(Var(N))) for type ArrayType(2,BasicType(Int))  (List(StorageType(rdd_block_tensor_2_0,List(BasicType(Int)),List(Tuple(List(IntConst(10), IntConst(10))), Tuple(List())))))
+Found in: MethodCall(Var(M),*,List(Var(N)))
+with env: Map(M -> StorageType(rdd_block_tensor_2_0,List(BasicType(Int)),List(Tuple(List(IntConst(10), IntConst(10))), Tuple(List()))), N -> StorageType(rdd_block_tensor_2_0,List(BasicType(Int)),List(Tuple(List(IntConst(10), IntConst(10))), Tuple(List()))))
+	at edu.uta.diablo.Typechecker$.typecheck(Typechecker.scala:674)
+	at edu.uta.diablo.Lifting$.$anonfun$lift_expr$7(Lifting.scala:242)
 	at scala.collection.LinearSeqOptimized.foldLeft(LinearSeqOptimized.scala:126)
 	at scala.collection.LinearSeqOptimized.foldLeft$(LinearSeqOptimized.scala:122)
 	at scala.collection.immutable.List.foldLeft(List.scala:91)
 	at edu.uta.diablo.Lifting$.lift_expr(Lifting.scala:203)
 	at edu.uta.diablo.Lifting$.$anonfun$lift_expr$12(Lifting.scala:262)
-	at scala.collection.immutable.List.map(List.scala:297)
-	at edu.uta.diablo.AST$.apply(AST.scala:195)
+	at edu.uta.diablo.AST$.apply(AST.scala:191)
 	at edu.uta.diablo.Lifting$.lift_expr(Lifting.scala:262)
-	at edu.uta.diablo.Lifting$.lift_expr(Lifting.scala:258)
-	at edu.uta.diablo.Lifting$.lift_expr(Lifting.scala:176)
 	at edu.uta.diablo.Lifting$.$anonfun$lift_expr$12(Lifting.scala:262)
 	at scala.collection.immutable.List.map(List.scala:293)
 	at edu.uta.diablo.AST$.apply(AST.scala:201)
 	at edu.uta.diablo.Lifting$.lift_expr(Lifting.scala:262)
-	at edu.uta.diablo.Lifting$.$anonfun$lift_expr$2(Lifting.scala:163)
+	at edu.uta.diablo.Lifting$.$anonfun$lift_expr$2(Lifting.scala:171)
 	at scala.collection.LinearSeqOptimized.foldLeft(LinearSeqOptimized.scala:126)
 	at scala.collection.LinearSeqOptimized.foldLeft$(LinearSeqOptimized.scala:122)
 	at scala.collection.immutable.List.foldLeft(List.scala:91)

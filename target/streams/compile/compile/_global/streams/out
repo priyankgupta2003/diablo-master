@@ -1,7 +1,10 @@
-[0m[[0m[31merror[0m] [0m[0m/home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala:40:7: overloaded method value setPos with alternatives:[0m
-[0m[[0m[31merror[0m] [0m[0m  (src: edu.uta.diablo.Stmt,dst: edu.uta.diablo.Expr)edu.uta.diablo.Expr <and>[0m
-[0m[[0m[31merror[0m] [0m[0m  (src: edu.uta.diablo.Expr,dst: edu.uta.diablo.Expr)edu.uta.diablo.Expr[0m
-[0m[[0m[31merror[0m] [0m[0m cannot be applied to (edu.uta.diablo.Expr, Any)[0m
-[0m[[0m[31merror[0m] [0m[0m    = setPos(e,e match {[0m
-[0m[[0m[31merror[0m] [0m[0m      ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala:232:15: not found: value z[0m
+[0m[[0m[31merror[0m] [0m[0m              z = Seq(List(Comprehension([0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala:246:56: not found: value z[0m
+[0m[[0m[31merror[0m] [0m[0m              print("---Printing from Translator---" + z)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/pxg9364/Diablo_2/diablo-master/src/main/scala/edu/uta/diablo/Translator.scala:247:15: not found: value z[0m
+[0m[[0m[31merror[0m] [0m[0m              z[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m

@@ -15,7 +15,7 @@ object mult_add {
         var M = (tensor*(10,10)[ ((i,j),i*100+j) | i <- 0..10, j <- 0..10]);
         var N = (tensor*(10,10)[ ((i,j),i*100) | i <- 0..10, j <- 0..10]);
         
-        var res = (tensor*(10,10)[((i,j),+/c) | ((i,k),a) <- M, ((kk,j),b) <- N, k == kk, let c = a*b, group by (i,j)]);
+        M @@ N;
         
     """)
 

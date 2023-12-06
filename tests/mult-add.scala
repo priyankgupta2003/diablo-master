@@ -12,8 +12,8 @@ object mult_add {
     parami(block_dim_size,10)
 
     val x = q("""
-        var M = (tensor*(10,10)[ ((i,j),i*100+j) | i <- 0..10, j <- 0..10]);
-        var N = (tensor*(10,10)[ ((i,j),i*100) | i <- 0..10, j <- 0..10]);
+        var M = (tensor*(10,10)[ ((i,j),10) | i <- 0..10, j <- 0..10]);
+        var N = (tensor*(10,10)[ ((i,j),10) | i <- 0..10, j <- 0..10]);
         
         M @@ N;
         

@@ -214,12 +214,14 @@ object Translator {
           // )))
 
           //Matrix Multiplication
-            case MethodCall(a, "@@", List(b)) =>
+            case MethodCall(m, "@@", List(n)) =>
               // Translate matrices M and N
-              val at = translate(a, env, vars, fncs)
-              val bt = translate(b, env, vars, fncs)
+              val at = translate(m, env, vars, fncs)
+              val bt = translate(n, env, vars, fncs)
 
               // Initialize new variables for iteration
+              val a = newvar
+              val b = newvar
               val va = newvar
               val vb = newvar
               val i = newvar
@@ -236,9 +238,11 @@ object Translator {
                 )),
                 List(
                   Generator(VarPat(va), at),
+                  Generator(TuplePat(List(TuplePat(List(VarPat(i), VarPat(k))), VarPat(a))), Var(va)),
                   Generator(VarPat(vb), bt),
+                  Generator(TuplePat(List(TuplePat(List(VarPat(kk), VarPat(j))), VarPat(b))), Var(vb)),
                   Predicate(MethodCall(Var(k), "==", List(Var(kk)))),
-                  LetBinding(VarPat(c), MethodCall(Var(va), "*", List(Var(vb)))),
+                  LetBinding(VarPat(c), MethodCall(Var(a), "*", List(Var(b)))),
                   GroupByQual(TuplePat(List(VarPat(i), VarPat(j))), Tuple(List(Var(i), Var(j))))
                 )
               )))

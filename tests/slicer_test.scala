@@ -15,16 +15,26 @@ object Slicer_Test {
         var M = tensor*(100,100)[ ((i,j),i*100+j) | i <- 0..99, j <- 0..99];
        
         var V = M[10:20:3,10:20:3];
-        var W = M[10,10];
-        
-
-       
-        
-        
-                       
+        V;
     """)
 
-    println("sum:" + x)
+        val y = q("""
+        var M = tensor*(100,100)[ ((i,j),i*100+j) | i <- 0..99, j <- 0..99];
+       
+        var V = M[10:20:3,10:20:3];
+        V;
+    """)
+
+        val z = q("""
+        var M = tensor*(100,100)[ ((i,j),i*100+j) | i <- 0..99, j <- 0..99];
+       
+        var V = M[10:20:3,10:20:3];
+        V;
+    """)
+
+    println("_----Res_1:" + x)
+    println("_----Res_2:" + y)
+    println("_----Res_3:" + z)
 
 
      

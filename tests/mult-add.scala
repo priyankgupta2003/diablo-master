@@ -12,14 +12,34 @@ object mult_add {
     parami(block_dim_size,10)
 
     val x = q("""
-        var M = (tensor*(10,10)[ ((i,j),10) | i <- 0..10, j <- 0..10]);
-        var N = (tensor*(10,10)[ ((i,j),10) | i <- 0..10, j <- 0..10]);
+        var M = (tensor*(100,100)[ ((i,j),i*10) | i <- 0..10, j <- 0..10]);
+        var N = (tensor*(100,100)[ ((i,j),i*10+j) | i <- 0..10, j <- 0..10]);
+        
+        M ++ N;
+        
+    """)
+
+    val y = q("""
+        var M = (tensor*(100,100)[ ((i,j),i*10) | i <- 0..10, j <- 0..10]);
+        var N = (tensor*(100,100)[ ((i,j),i*10+j) | i <- 0..10, j <- 0..10]);
+        
+        M -- N;
+        
+    """)
+
+    val z = q("""
+        var M = (tensor*(100,100)[ ((i,j),i*10) | i <- 0..10, j <- 0..10]);
+        var N = (tensor*(100,100)[ ((i,j),i*10+j) | i <- 0..10, j <- 0..10]);
         
         M @@ N;
         
     """)
 
-    println("sum:" + x)
+    println("----sum:" + x)
+
+    println("---Subtract:" + y)
+
+    println("---Multiply:" + z)
 
     
 

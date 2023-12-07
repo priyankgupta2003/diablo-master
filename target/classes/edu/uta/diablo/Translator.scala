@@ -231,7 +231,7 @@ object Translator {
               val c = newvar
 
               // Comprehension for matrix multiplication
-              val z = Seq(List(Comprehension(
+              Seq(List(Comprehension(
                 Tuple(List(
                   Tuple(List(Var(i), Var(j))), 
                   reduce("+", Var(c))
@@ -247,8 +247,6 @@ object Translator {
                 )
               )))
 
-              print("---Printing from Translator---" + z)
-              z
 
         
 
